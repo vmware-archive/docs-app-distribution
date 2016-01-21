@@ -20,7 +20,7 @@ Updated stemcell to 3130. This is a regular security upgrade that resolves the f
 
 ###1.2.2.0
 
-Fix to disable verbose loggin during installation process
+Fix to disable verbose logging during installation process
 
 ###1.2.1.0
 
