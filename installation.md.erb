@@ -9,12 +9,11 @@ For installation, a [Pivotal Cloud Foundry](https://network.pivotal.io/products/
 
 * Pivotal Cloud Foundry  ([Elastic Runtime](https://network.pivotal.io/products/elastic-runtime) and [Ops Mgr](https://network.pivotal.io/products/ops-manager))
 * [MySQL for PCF](https://network.pivotal.io/products/p-mysql) 
-* [Redis for PCF](https://network.pivotal.io/products/p-redis) 
 * SSL Certificate (for over-the-air installation of iOS apps)
-* SMTP provider
+* SMTP provider (for sending build notification emails)
 * S3-compatible object store API (for storing release information, including application binary files)
 
-
+**NOTE: A typical production deployment will require two application instances (AIs)**
 
 ###Installing via Ops Manager
 
@@ -135,7 +134,7 @@ Once all these settings have been configured, return to the Ops Manager installa
 
 * Click the 'sign in with Pivotal CF' link and enter the UAA admin credentials (found by accessing the Elastic Runtime tile's credentials tab under the 'UAA' section)
 
-<img src="images/login_with_CF.png"  />
+<img src="images/initial_login.png"  />
 
 * Upon successful login, the home page should appear as shown below:
 

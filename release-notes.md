@@ -8,6 +8,25 @@ title: App Distribution Release Notes
 
 ###Previous Releases
 
+
+
+###1.2.7.0
+
+APIs available for build automation (users can now call a set of curl commands to create a build, upload a test file, add release notes, released builds, etc.)
+
+
+###1.2.5.0
+
+Updated Bosh stemcell to version 3146.2 in order to address the following:
+
+ [USN-2857-1](http://www.ubuntu.com/usn/usn-2857-1/) <br/>
+ [USN-2842-1](http://www.ubuntu.com/usn/usn-2842-1/) <br/>
+ [USN-2842-2](http://www.ubuntu.com/usn/usn-2842-2/) <br/>
+ [USN-2836-1](http://www.ubuntu.com/usn/usn-2836-1/) <br/>
+ [USN-2834-1](http://www.ubuntu.com/usn/usn-2834-1/) <br/>
+ [USN-2830-1](http://www.ubuntu.com/usn/usn-2830-1/) <br/>
+ [USN-2829-1](http://www.ubuntu.com/usn/usn-2829-1/) <br/>
+
 ###1.2.3.0
 
 Updated stemcell to 3130. This is a regular security upgrade that resolves the following issues:
