@@ -8,12 +8,12 @@ For installation, a [Pivotal Cloud Foundry](https://network.pivotal.io/products/
 ###Installation Prerequisites
 
 * Pivotal Cloud Foundry  ([Elastic Runtime](https://network.pivotal.io/products/elastic-runtime) and [Ops Mgr](https://network.pivotal.io/products/ops-manager))
-* [MySQL for PCF](https://network.pivotal.io/products/p-mysql) 
+* [MySQL for PCF](https://network.pivotal.io/products/p-mysql)
 * SSL Certificate (for over-the-air installation of iOS apps)
 * SMTP provider (for sending build notification emails)
 * S3-compatible object store API (for storing release information, including application binary files)
 
-**NOTE: A typical production deployment will require two application instances (AIs)**
+<p class="note"><strong>Note</strong>: A typical production deployment will require two application instances (AIs).</p>
 
 ###Installing via Ops Manager
 
@@ -32,7 +32,7 @@ To install the PCF App Distribution tile in Ops Manager, please follow the steps
 
 ###Ops Manager settings
 
-From step 4 above, go to the 'Settings' Tab after clicking on the App Distribution tile and update the following configuration settings
+From step 4 above, go to the 'Settings' Tab after clicking on the App Distribution tile and update the following configuration settings.
 
 ####SMTP Settings
 
@@ -66,9 +66,9 @@ Required field values:
 
 ####MySQL Settings
 
-Select the MySQL Database to be used -  PCF MySQL or an External MySQL service (PCF MySQL is the default setting)
+Select the MySQL Database to be used -  PCF MySQL or an External MySQL service (PCF MySQL is the default setting).
 
-If PCF MySQL is used then enter the appropriate service plan (typically '100mb-dev')
+If PCF MySQL is used then enter the appropriate service plan (typically '100mb-dev').
 
 
 <br/>
@@ -78,7 +78,7 @@ If PCF MySQL is used then enter the appropriate service plan (typically '100mb-d
 
 <br/>
 <br/>
-If an external MySQL service is to be used then enter the following settings
+If an external MySQL service is to be used, enter the following settings:
 
 
 * MySQL Host
@@ -92,49 +92,49 @@ If an external MySQL service is to be used then enter the following settings
 
 #####Backup and Restore MySQL
 
-If MySQL for PCF is being used, follow these [instructions](http://docs.pivotal.io/p-mysql/backup.html) to backup and restore the database
+If MySQL for PCF is being used, follow these [instructions](http://docs.pivotal.io/p-mysql/backup.html) to backup and restore the database.
 
 <img src="images/external-mysql.png"  />
 
 ####Redis Settings
 
-Select the Redis database to be used - PCF Redis or an External Redis service (PCF Redis is the default setting)
+Select the Redis database to be used - PCF Redis or an External Redis service (PCF Redis is the default setting).
 
 Once all these settings have been configured, return to the Ops Manager installation dashboard, and click on the 'Apply Changes' to start the installation.
 
 ####Provision a service instance for App Distribution
 
 
-* Log into the PCF console 
-* In the system org, go to the 'app-distribution' space 
+* Log into the PCF console.
+* In the system org, go to the 'app-distribution' space.
 * Click on the 'Add Service' button:
 
 <img src="images/app_instance.png"  />
 
 
-* Select 'App Distribution' from the Services Marketplace
+* Select 'App Distribution' from the Services Marketplace.
 
 <img src="images/Select_app_dist_instance.png"  />
 
-* Select the 'development'  plan (provisions a single App Distribution instance)
+* Select the 'development' plan (provisions a single App Distribution instance).
 
 <img src="images/choose_development_plan.png"/>
 
 * On the next screen (configure instance), enter the following:
 	1. Instance name: Enter a value (i.e. 'App Distribution')
-	2. Add to space: 'app distribution' 
-	3. Bind to App: 'do not bind'		
-		
+	2. Add to space: 'app distribution'
+	3. Bind to App: 'do not bind'
+
 <img src="images/configure_instance.png"  />
-		
-* Click 'Add'. The browser will then redirect back to the PCF console page showing the newly provisioned service instance
-* Click **Manage** under the instance name to access the App Distribution portal. 
+
+* Click 'Add'. The browser will then redirect back to the PCF console page showing the newly provisioned service instance.
+* Click **Manage** under the instance name to access the App Distribution portal.
 
 <img src="images/manage_instance.png"  />
 
-* Click the 'sign in with Pivotal CF' link and enter the UAA admin credentials (found by accessing the Elastic Runtime tile's credentials tab under the 'UAA' section)
+* Click the 'sign in with Pivotal CF' link and enter the UAA admin credentials (found by accessing the Elastic Runtime tile's credentials tab under the 'UAA' section).
 
-<img src="images/initial_login.png"  />
+<img src="images/Initial_login.png"  />
 
 * Upon successful login, the home page should appear as shown below:
 
