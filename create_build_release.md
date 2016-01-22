@@ -4,6 +4,8 @@ title: Create & Release Builds
 
 <br/>
 
+NOTE: Users can now use APIs for build automation (curl command to create a build, upload a file, release a build, etc.). Please reference this [link](https://app-distribution.pivotal.io/docs) for more information
+
 ##Create a project and add users to the project team
 1. Click **New Project**. (i.e. setting up a new App project page from which the release will be sent)
 1. Add Project Name, Client Name, Platform, Description, and project mailing list.
