@@ -8,14 +8,16 @@ title: App Distribution Release Notes
 
 ###Previous Releases
 
+###1.3.3 
 
+Updated stemcell to version 3146.9 
 
-###1.2.7.0
+###1.3.0
 
 APIs available for build automation (users can now call a set of curl commands to create a build, upload a test file, add release notes, released builds, etc.)
 
 
-###1.2.5.0
+###1.2.5
 
 Updated Bosh stemcell to version 3146.2 in order to address the following:
 
@@ -27,9 +29,9 @@ Updated Bosh stemcell to version 3146.2 in order to address the following:
  [USN-2830-1](http://www.ubuntu.com/usn/usn-2830-1/) <br/>
  [USN-2829-1](http://www.ubuntu.com/usn/usn-2829-1/) <br/>
 
-###1.2.3.0
+###1.2.3
 
-Updated stemcell to 3130. This is a regular security upgrade that resolves the following issues:
+Updated stemcell to version 3130. This is a regular security upgrade that resolves the following issues:
 
 [USN-2806-1](http://www.ubuntu.com/usn/usn-2806-1/) Linux kernel (Vivid HWE) vulnerability
 <br/>
@@ -37,17 +39,17 @@ Updated stemcell to 3130. This is a regular security upgrade that resolves the f
 [USN-2798-1](http://www.ubuntu.com/usn/usn-2798-1/) Linux kernel (Vivid HWE) vulnerabilities
 
 
-###1.2.2.0
+###1.2.2
 
 Fix to disable verbose logging during installation process
 
-###1.2.1.0
+###1.2.1
 
 * Support for PCF 1.6
 * API to upload files to builds
 * Minor bug fixes and UI updates
 
-###1.1.0.0
+###1.1.0
 
 * Provided APIs that can be used by CI scripts to create a build and upload a file
 * Minor UI updates - new login page, view login profile (from user id dropdown)
