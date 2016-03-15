@@ -2,7 +2,6 @@
 title: Installation
 ---
 
-
 For installation, a [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf) Administrator initially imports the [Pivotal App Distribution](https://network.pivotal.io/products/p-app-distribution) package into Pivotal Cloud Foundry Operations Manager.
 
 ###Installation Prerequisites
@@ -13,11 +12,11 @@ For installation, a [Pivotal Cloud Foundry](https://network.pivotal.io/products/
 * SMTP provider (for sending build notification emails)
 * S3-compatible object store API (for storing release information, including application binary files)
 
-<p class="note"><strong>Note</strong>: A typical production deployment will require two application instances (AIs).</p>
+<p class="note"><strong>Note</strong>: A typical production deployment requires two application instances (AIs).</p>
 
 ###Installing via Ops Manager
 
-To install the PCF App Distribution tile in Ops Manager, please follow the steps listed below:
+Follow the steps listed below to install the PCF App Distribution tile in Ops Manager:
 
 1. Download the product file from [Pivotal Network](https://network.pivotal.io/products)
 
@@ -29,8 +28,7 @@ To install the PCF App Distribution tile in Ops Manager, please follow the steps
 
 1. Click **Apply Changes** to install the product.
 
-
-###Ops Manager settings
+###Ops Manager Settings
 
 From step 4 above, go to the 'Settings' Tab after clicking on the App Distribution tile and update the following configuration settings.
 
@@ -59,10 +57,7 @@ Required field values:
 
 <br/>
 
-
-
 <img src="images/s3-settings.png"  />
-
 
 ####MySQL Settings
 
@@ -96,14 +91,8 @@ If MySQL for PCF is being used, follow these [instructions](http://docs.pivotal.
 
 <img src="images/external-mysql.png"  />
 
-####Redis Settings
 
-Select the Redis database to be used - PCF Redis or an External Redis service (PCF Redis is the default setting).
-
-Once all these settings have been configured, return to the Ops Manager installation dashboard, and click on the 'Apply Changes' to start the installation.
-
-####Provision a service instance for App Distribution
-
+###Provision a service instance for App Distribution
 
 * Log into the PCF console.
 * In the system org, go to the 'app-distribution' space.
