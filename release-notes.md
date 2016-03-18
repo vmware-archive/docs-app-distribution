@@ -8,6 +8,10 @@ title: App Distribution Release Notes
 
 ###Previous Releases
 
+###1.3.4 
+
+Updated stemcell to version 3146.10 to address [USN-2929-1](http://www.ubuntu.com/usn/usn-2929-1/)
+
 ###1.3.3 
 
 Updated stemcell to version 3146.9 
