@@ -8,6 +8,14 @@ title: App Distribution Release Notes
 
 ###Previous Releases
 
+###1.3.6 
+
+Updated stemcell to version 3232.2 
+
+###1.3.5
+
+Maintenance release to remove NewRelic info
+
 ###1.3.4 
 
 Updated stemcell to version 3146.10 to address [USN-2929-1](http://www.ubuntu.com/usn/usn-2929-1/)
