@@ -53,7 +53,7 @@ Updated stemcell to version 3130. This is a regular security upgrade that resolv
 
 ###1.2.2
 
-Fix to disable verbose loggin during installation process
+Fix to disable verbose logging during installation process
 
 ###1.2.1
 
