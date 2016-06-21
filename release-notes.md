@@ -8,6 +8,10 @@ title: App Distribution Release Notes
 
 ###Previous Releases
 
+###1.3.8
+
+Updated to bosh stemcell v3146.12
+
 ###1.3.6 
 
 Updated stemcell to version 3232.2 
